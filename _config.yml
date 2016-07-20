@@ -2,7 +2,9 @@ name: White Paper
 highlighter: true
 url: http://vinitkumar.me/white-paper
 gems: [jekyll-paginate,  jekyll-gist]
-paginate: 8
+paginate: 5
+paginate_path: "page:num" # 指定每页的url
+
 description:     Jekyll theme for Programmers
 intro: White Paper is a Jekyll theme most suited to be used on tech blogs that like their content to shine.
 logo:             logo.png
@@ -13,12 +15,12 @@ disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           <your-name-here>
+  name:           fanwenkai
   avatar:         <avatar-image-link>
-  email:          <your-email-address>
+  email:          ios_fanwenkai@163.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
-  github:
+  github:         https://github.com/fanwenkai/
   stackexchange:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
